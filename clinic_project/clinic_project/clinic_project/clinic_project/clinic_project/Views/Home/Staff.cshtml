@@ -1,0 +1,83 @@
+﻿
+@{
+    ViewData["Title"] = "Staff";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Staff</h1>
+
+
+
+
+<style>
+    .staff-container {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .staff-table {
+        margin: auto;
+        border-collapse: collapse;
+        width: 50%;
+    }
+
+        .staff-table th,
+        .staff-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .staff-table th {
+            background-color: #f2f2f2;
+        }
+
+    .add-btn {
+        display: inline-block;
+        margin-bottom: 15px;
+        text-decoration: none;
+        padding: 8px 15px;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+    }
+
+        .add-btn:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+<div class="staff-container">
+
+    <h2>Staff List</h2>
+
+    <a asp-action="addstaff" class="add-btn">Add New Staff</a>
+
+    <table class="staff-table">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Qualification</th>
+            <th>Role</th>
+            <th>Actions</th>
+        </tr>
+
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.FullName</td>
+                <td>@s.Email</td>
+                <td>@s.Phone</td>
+                <td>@s.Qualification</td>
+                <td>@s.Role?.RoleName</td>
+                <td>
+                    <a asp-action="EditStaff" asp-route-id="@s.StaffId">Edit</a> |
+
+                    <a asp-action="DeleteStaff" asp-route-id="@s.StaffId">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

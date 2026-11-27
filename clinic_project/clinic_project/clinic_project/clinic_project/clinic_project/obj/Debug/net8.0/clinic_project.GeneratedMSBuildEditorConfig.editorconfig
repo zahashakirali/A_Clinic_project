@@ -1,0 +1,213 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = clinic_project
+build_property.RootNamespace = clinic_project
+build_property.ProjectDir = C:\Users\asp\Downloads\clinic_project\clinic_project\clinic_project\clinic_project\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\asp\Downloads\clinic_project\clinic_project\clinic_project\clinic_project
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/HomeController2/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIyXEFib3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/HomeController2/Addtocart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIyXEFkZHRvY2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/HomeController2/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIyXENoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/HomeController2/detailed_service.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIyXGRldGFpbGVkX3NlcnZpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/HomeController2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/HomeController2/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIyXGxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/HomeController2/Medicine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIyXE1lZGljaW5lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/HomeController2/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIyXE15T3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/HomeController2/OrderSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIyXE9yZGVyU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/HomeController2/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIyXFNlcnZpY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/HomeController2/ShowEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIyXFNob3dFcXVpcG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/AddEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRFcXVpcG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/AddLecture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRMZWN0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/addmadi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZGRtYWRpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/AddPractical.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRQcmFjdGljYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/AddRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/AddSeminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRTZW1pbmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/AddStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRTdGFmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/Addsubject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRzdWJqZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/adduser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZGR1c2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/EditEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0RXF1aXBtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/EditPractical.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0UHJhY3RpY2FsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/editpro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlZGl0cHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/editrole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlZGl0cm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/EditSeminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0U2VtaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/EditStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0U3RhZmYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/editsubject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlZGl0c3ViamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/EquipmentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcXVpcG1lbnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/Feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGZWVkYmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/fetchmadi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmZXRjaG1hZGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/fetchsubject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmZXRjaHN1YmplY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/LectureList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZWN0dXJlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/PracticalList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmFjdGljYWxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/Rolelist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSb2xlbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/Seminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZW1pbmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/showuser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG93dXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Home/Staff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdGFmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Shared/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asp/Downloads/clinic_project/clinic_project/clinic_project/clinic_project/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ry0euybmgi

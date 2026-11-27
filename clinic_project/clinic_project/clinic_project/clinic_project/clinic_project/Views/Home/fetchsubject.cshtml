@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = "fetchsubject";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>fetchsubject</h1>
+<h1>fetchsubject</h1>
+
+
+<div class="container mt-5">
+
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-body">
+
+            <h2 class="text-center mb-4">Subject List</h2>
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-hover align-middle text-center">
+
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Subject ID</th>
+                            <th>Subject Name</th>
+                            <th>Description</th>
+                            <th>Delete</th>
+                            <th>Edit</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.SubjectId</td>
+                                <td>@item.SubjectName</td>
+                                <td>@item.Description</td>
+
+                                <td><a asp-action="deletsubject" asp-route-id="@item.SubjectId"><button class="btn btn-warning"> Delete</button></a></td>
+
+                                <td><a asp-action="editsubject" asp-route-id="@item.SubjectId"><button class="btn btn-danger"> edit </button></a></td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>

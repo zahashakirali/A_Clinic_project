@@ -1,0 +1,50 @@
+﻿@model clinic_project.Models.Seminar
+@{
+    ViewData["Title"] = "AddSeminar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>AddSeminar</h1>
+
+
+<h1>AddSeminar</h1>
+<div class="d-flex justify-content-center align-items-center vh-100">
+
+    <form action="AddSeminar" method="post" class="w-50 border p-4 shadow rounded bg-light">
+
+        <h2 class="text-center mb-4">Add Seminar</h2>
+
+        <input asp-for="SeminarTitle"
+               placeholder="Title"
+               class="form-control" />
+        <br />
+
+        <input asp-for="SeminarDescription"
+               placeholder="Description"
+               class="form-control" />
+        <br />
+
+        <input asp-for="SeminarDate"
+               type="date"
+               min="@DateTime.Now.ToString("yyyy-MM-dd")"
+               class="form-control" />
+        <br />
+
+        <input asp-for="SeminarTime"
+               type="time"
+               class="form-control" />
+        <br />
+
+        <input asp-for="HallNo"
+               placeholder="Hall No"
+               class="form-control" />
+        <br />
+
+        <button type="submit"
+                class="btn btn-primary w-100">
+            Save
+        </button>
+
+    </form>
+
+</div>

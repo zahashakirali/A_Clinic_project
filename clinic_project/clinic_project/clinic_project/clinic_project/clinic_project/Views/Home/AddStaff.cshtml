@@ -1,0 +1,79 @@
+﻿@model clinic_project.Models.Staff
+@{
+    ViewData["Title"] = "AddStaff";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>AddStaff</h1>
+
+
+
+
+
+
+<div class="container d-flex justify-content-center align-items-center mt-5">
+
+    <div class="card shadow p-4" style="width: 500px; border-radius: 15px;">
+
+        <h2 class="text-center mb-4">Add New Staff</h2>
+
+        <form asp-action="addstaff" method="post">
+
+            <div class="form-group mb-3">
+                <label asp-for="FullName" class="form-label"></label>
+                <input asp-for="FullName" class="form-control" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Phone" class="form-label"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Qualification" class="form-label"></label>
+                <input asp-for="Qualification" class="form-control" />
+                <span asp-validation-for="Qualification" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label>Password</label>
+                <input type="password" name="Password" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="RoleId" class="form-label">Role</label>
+
+                <select asp-for="RoleId"
+                        class="form-select"
+                        asp-items="@(new SelectList(ViewBag.Roles, "RoleId", "RoleName"))">
+
+                    <option value="">Select Role</option>
+
+                </select>
+
+                <span asp-validation-for="RoleId" class="text-danger"></span>
+            </div>
+
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-success">
+                    Add Staff
+                </button>
+
+                <a asp-action="Index" class="btn btn-secondary">
+                    Cancel
+                </a>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

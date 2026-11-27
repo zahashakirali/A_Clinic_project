@@ -1,0 +1,185 @@
+﻿@* @model IEnumerable<Clinic_Eproject.Models.Equipment> *@
+
+@{
+    ViewData["Title"] = "EquipmentList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Card Professional Styling */
+    .card {
+        border: none !important;
+        border-radius: 10px !important;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+        background: #ffffff !important;
+        overflow: hidden;
+    }
+
+    /* Page Title */
+    h4 {
+        color: #0056b3 !important;
+        font-weight: 700 !important;
+    }
+
+    .card-title {
+        color: #0056b3 !important;
+        font-weight: 700 !important;
+    }
+
+    /* Table Styling */
+    .table thead th {
+        background-color: #f8fafc !important;
+        color: #0056b3 !important;
+        font-weight: 700 !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        letter-spacing: 0.5px !important;
+        border-bottom: 2px solid #e2e8f0 !important;
+        padding: 15px !important;
+    }
+
+    .table tbody td {
+        padding: 15px !important;
+        vertical-align: middle !important;
+        color: #334155 !important;
+    }
+
+    .table tbody tr:hover {
+        background-color: #f1f5f9 !important;
+        transition: background-color 0.2s ease;
+    }
+
+    /* Add Button */
+    .btn-success {
+        background-color: #0056b3 !important;
+        border-color: #0056b3 !important;
+        color: #fff !important;
+        border-radius: 6px !important;
+        padding: 8px 18px !important;
+        font-weight: 500 !important;
+        transition: all .3s ease;
+    }
+
+        .btn-success:hover {
+            background-color: #004085 !important;
+            border-color: #004085 !important;
+            box-shadow: 0 4px 12px rgba(0,86,179,.25) !important;
+        }
+
+    /* Edit Button */
+    .btn-warning {
+        background-color: #0056b3 !important;
+        border-color: #0056b3 !important;
+        color: #fff !important;
+        border-radius: 6px !important;
+        transition: all .3s ease;
+    }
+
+        .btn-warning:hover {
+            background-color: #004085 !important;
+            border-color: #004085 !important;
+            color: #fff !important;
+        }
+
+    /* Delete Button */
+    .btn-danger {
+        background: transparent !important;
+        color: #dc3545 !important;
+        border: 1px solid #dc3545 !important;
+        border-radius: 6px !important;
+        transition: all .3s ease;
+    }
+
+        .btn-danger:hover {
+            background: #dc3545 !important;
+            color: #fff !important;
+        }
+
+    /* Equipment Images */
+    img {
+        border: 2px solid #e2e8f0;
+        border-radius: 8px !important;
+    }
+
+    /* Breadcrumb */
+    .breadcrumb-item a {
+        color: #0056b3;
+        text-decoration: none;
+    }
+
+        .breadcrumb-item a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+
+
+<div class="d-flex justify-content-between align-items-center mb-3 mt-4 px-2">
+    <div>
+        <h4 class="mb-1 fw-bold">Equipment</h4>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active">Equipment List</li>
+            </ol>
+        </nav>
+    </div>
+    <a asp-action="AddEquipment" class="btn btn-success">
+        <i class="ti ti-plus"></i> Add Equipment
+    </a>
+</div>
+
+<div class="card mx-2">
+    <div class="card-body">
+        <h5 class="card-title fw-bold mb-3">Equipment Data</h5>
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.EquipmentId</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(item.Image))
+                                {
+                                    <img src="@item.Image" width="55" height="55"
+                                         style="object-fit:cover; border-radius:8px;" />
+                                }
+                                else
+                                {
+                                    <span class="text-muted">No Image</span>
+                                }
+                            </td>
+                            <td>@item.Name</td>
+                            <td>@item.Description</td>
+                            <td>$@item.Price</td>
+                            <td>@item.Stock</td>
+                            <td>
+                                <a asp-action="EditEquipment" asp-route-id="@item.EquipmentId">
+                                    <button class="btn btn-warning btn-sm">Edit</button>
+                                </a>
+                            </td>
+                            <td>
+                                <a asp-action="DeleteEquipment" asp-route-id="@item.EquipmentId">
+                                    <button class="btn btn-danger btn-sm">Delete</button>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

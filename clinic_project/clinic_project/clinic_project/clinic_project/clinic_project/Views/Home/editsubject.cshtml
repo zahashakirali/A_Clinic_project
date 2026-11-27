@@ -1,0 +1,68 @@
+﻿@model clinic_project.Models.Subject
+@{
+    ViewData["Title"] = "editsubject";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>editsubject</h1>
+
+<h1>editsubject</h1>
+
+
+
+
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+
+        <div class="col-lg-6 col-md-8 col-sm-12">
+
+            <div class="card shadow-lg border-0 rounded-4">
+
+                <div class="card-body p-4">
+
+                    <h2 class="text-center mb-4">Edit Subject</h2>
+
+                    <form asp-action="editsubject" method="post">
+
+                        <input type="hidden" asp-for="SubjectId" />
+
+                        <div class="mb-3">
+                            <label asp-for="SubjectName" class="form-label fw-bold"></label>
+
+                            <input asp-for="SubjectName"
+                                   class="form-control"
+                                   placeholder="Enter Subject Name" />
+
+                            <span asp-validation-for="SubjectName"
+                                  class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label fw-bold"></label>
+
+                            <textarea asp-for="Description"
+                                      class="form-control"
+                                      rows="4"
+                                      placeholder="Enter Description"></textarea>
+
+                            <span asp-validation-for="Description"
+                                  class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                Update Subject
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>

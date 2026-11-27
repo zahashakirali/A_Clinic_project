@@ -1,0 +1,153 @@
+﻿
+@{
+    ViewData["Title"] = "Rolelist";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    /* Card Professional Polish */
+    .custom-card {
+        border: none !important;
+        border-radius: 10px !important;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+        background: #ffffff !important;
+        overflow: hidden;
+    }
+
+        .custom-card .header {
+            border-bottom: 1px solid #f1f5f9 !important;
+            padding: 24px !important;
+        }
+
+    /* Table Styling */
+    .custom-table thead th {
+        background-color: #f8fafc !important;
+        color: #0056b3 !important; /* Professional Blue Headings */
+        font-weight: 700 !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        letter-spacing: 0.5px !important;
+        border-bottom: 2px solid #e2e8f0 !important;
+        padding: 15px !important;
+    }
+
+    .custom-table tbody td, .custom-table tbody th {
+        padding: 15px !important;
+        vertical-align: middle !important;
+        color: #334155 !important;
+    }
+
+    .custom-table tbody tr:hover {
+        background-color: #f1f5f9 !important; /* Soft gray hover effect */
+        transition: background-color 0.2s ease;
+    }
+
+    /* Buttons Styling */
+    .btn-blue-solid {
+        background-color: #0056b3 !important;
+        color: #ffffff !important;
+        border: none !important;
+        border-radius: 6px !important;
+        padding: 8px 18px !important;
+        font-weight: 500 !important;
+        font-size: 13px !important;
+        transition: all 0.3s ease !important;
+    }
+
+        .btn-blue-solid:hover {
+            background-color: #004085 !important;
+            box-shadow: 0 4px 12px rgba(0, 86, 179, 0.25) !important;
+        }
+
+    .btn-danger-outline {
+        color: #dc3545 !important;
+        background-color: transparent !important;
+        border: 1px solid #dc3545 !important;
+        border-radius: 6px !important;
+        padding: 8px 18px !important;
+        font-weight: 500 !important;
+        font-size: 13px !important;
+        transition: all 0.3s ease !important;
+    }
+
+        .btn-danger-outline:hover {
+            background-color: #dc3545 !important;
+            color: #ffffff !important;
+            box-shadow: 0 4px 12px rgba(220, 53, 69, 0.2) !important;
+        }
+</style>
+
+
+<div class="container">
+    <div class="col-md-10 mx-auto">
+        <section class="content">
+
+            <div class="body_scroll">
+                <a asp-action="Addrole" class="btn btn-success">
+                    <i class="ti ti-plus"></i> Add Role
+                </a>
+                <div class="block-header mb-4">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-6 col-sm-12">
+                            <h2 style="color: #0056b3; font-weight: 700;">Role Management</h2>
+
+
+                            
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-sm-12">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid p-0">
+                    <div class="row clearfix">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+
+
+
+                            <div class="body p-0">
+                                <div class="table-responsive">
+                                    <table class="table custom-table mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 15%;">Id</th>
+                                                <th style="width: 55%;">Role Name</th>
+                                                <th style="width: 15%; text-align: center;">Edit</th>
+                                                <th style="width: 15%; text-align: center;">Delete</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            @foreach (var roledata in Model)
+                                            {
+                                                <tr>
+                                                    <th scope="row" style="font-weight: 600; color: #64748b;">#@roledata.RoleId</th>
+                                                    <td style="font-weight: 500;">@roledata.RoleName</td>
+
+                                                    <td style="text-align: center;">
+                                                        <a asp-action="editrole" asp-route-id="@roledata.RoleId">
+                                                            <button class="btn btn-blue-solid"><i class="zmdi zmdi-edit mr-1"></i> Edit</button>
+                                                        </a>
+                                                    </td>
+
+                                                    <td style="text-align: center;">
+                                                        <a asp-action="deleterole" asp-route-id="@roledata.RoleId">
+                                                            <button class="btn btn-danger-outline"><i class="zmdi zmdi-delete mr-1"></i> Delete</button>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            }
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </section>
+
+</div>
+</div>

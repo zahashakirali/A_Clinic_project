@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "OrderSuccess";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+@{
+    ViewData["Title"] = "Order Success";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<div class="container my-5 text-center py-5 shadow-sm rounded bg-white border">
+    <i class="fas fa-check-circle fa-5x text-success mb-3"></i>
+    <h2 class="fw-bold text-success">Thank You for Your Order!</h2>
+    <p class="fs-5 text-muted">Your order has been received and is currently being processed.</p>
+    <div class="alert alert-secondary d-inline-block px-4 py-2 mt-2">
+        <strong>Order ID:</strong> #@ViewBag.OrderId
+    </div>
+    <div class="mt-4">
+        <a  asp-action="Index" class="btn btn-primary px-4 shadow-sm">Continue Shopping</a>
+    </div>
+</div>
+

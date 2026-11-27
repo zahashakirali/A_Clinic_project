@@ -1,0 +1,79 @@
+﻿@model clinic_project.Models.Medicine
+@{
+    ViewData["Title"] = "editpro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>editpro</h1>
+
+<div class="container-fluid pt-4">
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+
+            <div class="card shadow-sm">
+                <div class="card-body">
+
+                    <h4 class="mb-4">Add Medicine</h4>
+
+                    <form asp-action="editpro" method="post" enctype="multipart/form-data">
+                        <input asp-for="MedicineId" type="hidden" class="form-control" />
+                        <div class="row">
+
+                            <!-- Name -->
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Name</label>
+                                <input asp-for="Name" class="form-control" />
+                            </div>
+
+                            <!-- Type -->
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Type</label>
+                                <input asp-for="Type" class="form-control" />
+                            </div>
+
+                            <!-- Code -->
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Code</label>
+                                <input asp-for="Code" class="form-control" />
+                            </div>
+
+                            <!-- Price -->
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Price</label>
+                                <input asp-for="Price" class="form-control" />
+                            </div>
+
+                            <!-- Stock -->
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Stock</label>
+                                <input asp-for="Stock" class="form-control" />
+                            </div>
+
+                            <!-- Image -->
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Image</label> 
+
+                              <input type="hidden" class="form-control" asp-for="Image"  /> 
+                              <input type="file" class="form-control" asp-for="Image" name="file" /> 
+
+                            </div>
+
+                            <!-- Button -->
+                            <div class="col-12 text-end">
+                                <button type="submit" class="btn btn-primary px-4">
+                                    Save
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>

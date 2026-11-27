@@ -1,0 +1,121 @@
+﻿@{
+    ViewData["Title"] = "AddToCart";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+@model clinic_project.Models.Cart
+
+@{
+    ViewData["Title"] = "Shopping Cart";
+    decimal? grandTotal = 0;
+}
+
+<div class="container my-5">
+    <h2 class="mb-4"><i class="fas fa-shopping-cart me-2"></i>Your Cart</h2>
+
+    @if (Model == null || !Model.CartItems.Any())
+    {
+        <div class="text-center py-5 shadow-sm rounded bg-light border">
+            <i class="fas fa-shopping-basket fa-4x text-muted mb-3"></i>
+            <h4 class="text-secondary">Your cart is currently empty!</h4>
+            <p class="text-muted">Browse medicines or services to add items to your cart.</p>
+            <a asp-controller="Home" asp-action="Index" class="btn btn-primary px-4 mt-2">Return to Shop</a>
+        </div>
+    }
+    else
+    {
+        <div class="row g-4">
+            <div class="col-lg-8">
+                <div class="card shadow-sm border-0 rounded-3">
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover align-middle mb-0 text-nowrap">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th class="ps-4">Product Name / Type</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                        <th class="text-end pe-4">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.CartItems)
+                                    {
+                                        decimal? itemTotal = (item.Price ?? 0) * (item.Quantity ?? 1);
+                                        grandTotal += itemTotal;
+
+                                        <tr>
+                                            <td class="ps-4">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="p-2 bg-primary-subtle text-primary rounded me-3">
+                                                        <i class="fas @(item.ProductType == "Medicine" ? "fa-pills" : "fa-hand-holding-medical") fa-lg"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h6 class="mb-0 fw-semibold">Item #@item.ProductId</h6>
+                                                        <small class="text-muted text-uppercase fs-7">@item.ProductType</small>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>Rs. @(item.Price?.ToString("N2") ?? "0.00")</td>
+                                            <td>
+                                                <span class="badge bg-light text-dark border px-3 py-2 fs-6">@item.Quantity</span>
+                                            </td>
+                                            <td class="fw-bold text-dark">Rs. @itemTotal?.ToString("N2")</td>
+                                            <td class="text-end pe-4">
+                                                <form asp-controller="Cart" asp-action="RemoveItem" method="post" onsubmit="return confirm('Are you sure you want to remove this item from your cart?');">
+                                                    <input type="hidden" name="cartItemId" value="@item.CartItemId" />
+                                                    <button type="submit" class="btn btn-outline-danger btn-sm rounded-circle" title="Remove">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card shadow-sm border-0 rounded-3">
+                    <div class="card-body p-4">
+                        <h4 class="card-title fw-bold mb-4">Bill Summary</h4>
+
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="text-muted">Total Items:</span>
+                            <span class="fw-semibold">@Model.CartItems.Sum(i => i.Quantity)</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="text-muted">Subtotal:</span>
+                            <span class="fw-semibold">Rs. @grandTotal?.ToString("N2")</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-3 text-success">
+                            <span>Delivery/Service Charges:</span>
+                            <span class="fw-semibold">FREE</span>
+                        </div>
+
+                        <hr class="my-3">
+
+                        <div class="d-flex justify-content-between mb-4">
+                            <span class="h5 fw-bold text-dark">Grand Total:</span>
+                            <span class="h5 fw-bold text-primary">Rs. @grandTotal?.ToString("N2")</span>
+                        </div>
+
+                        <a  asp-action="Checkout" class="btn btn-primary w-100 py-2 rounded-3 fw-bold shadow-sm">
+                            PROCEED TO CHECKOUT <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-link w-100 text-center mt-3 text-decoration-none text-muted">
+                            <i class="fas fa-chevron-left me-1 fs-7"></i> Continue Shopping
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewData["Title"] = "fetchmadi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+
+
+
+<div class="container-fluid pt-4">
+    <a asp-action="addmadi" class="btn btn-success">
+        <i class="ti ti-plus"></i> Add Medicine 
+    </a>
+    <div class="card">
+        <div class="card-body">
+
+            <h4 class="mb-4">Medicine List</h4>
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-striped text-center align-middle">
+
+                    <thead class="table-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Code</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>Image</th>
+                            <th>delete</th>
+                            <th> edit </th>
+
+
+
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.MedicineId</td>
+                                <td>@item.Name</td>
+                                <td>@item.Type</td>
+                                <td>@item.Code</td>
+                                <td>@item.Price</td>
+                                <td>@item.Stock</td>
+
+
+                                <td>
+                                    <img src="@item.Image" width="100px" height="100px" />
+                                </td>
+
+                                <td> <a asp-action="deletmedi" asp-route-id="@item.MedicineId"> <botton class="btn btn-info">  delete </botton></a></td>
+                                <td> <a asp-action="editpro" asp-route-id="@item.MedicineId"> <botton class="btn btn-danger">  edit </botton></a></td>
+                            </tr>
+
+                                        }
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+

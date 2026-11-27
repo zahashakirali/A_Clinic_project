@@ -1,0 +1,59 @@
+﻿@model clinic_project.Models.Seminar
+
+@{
+    ViewData["Title"] = "EditSeminar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>EditSeminar</h1>
+
+
+
+<h1>EditSeminar</h1>
+
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+
+    <form action="EditSeminar"
+          method="post"
+          class="w-50 border p-4 shadow rounded bg-light">
+
+        <h2 class="text-center mb-4">Edit Seminar</h2>
+
+        <input type="hidden" asp-for="SeminarId" />
+
+        <input asp-for="SeminarTitle"
+               class="form-control"
+               placeholder="Title" />
+        <br />
+
+        <input asp-for="SeminarDescription"
+               class="form-control"
+               placeholder="Description" />
+        <br />
+
+        <input asp-for="SeminarDate"
+               type="date"
+               min="@DateTime.Now.ToString("yyyy-MM-dd")"
+               class="form-control" />
+        <br />
+
+        <input asp-for="SeminarTime"
+               type="time"
+               class="form-control" />
+        <br />
+
+        <input asp-for="HallNo"
+               class="form-control"
+               placeholder="Hall No" />
+        <br />
+
+        <button type="submit"
+                class="btn btn-success w-100">
+            Update
+        </button>
+
+    </form>
+
+</div>
+

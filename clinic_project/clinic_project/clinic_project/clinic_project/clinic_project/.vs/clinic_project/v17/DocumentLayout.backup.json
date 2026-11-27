@@ -1,0 +1,1038 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\homecontroller2\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\homecontroller2\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\addseminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\addseminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\lecturelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\lecturelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\addequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\addequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\practicallist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\practicallist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\rolelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\rolelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\clinicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\clinicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\seminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\seminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\controllers\\homecontroller2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:controllers\\homecontroller2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\staff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\staff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\equipmentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\equipmentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\addlecture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\addlecture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\homecontroller2\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\homecontroller2\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\homecontroller2\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\homecontroller2\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\homecontroller2\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\homecontroller2\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\homecontroller2\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\homecontroller2\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\homecontroller2\\medicine.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\homecontroller2\\medicine.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\fetchmadi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\fetchmadi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\showuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\showuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\homecontroller2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\homecontroller2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\addmadi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\addmadi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\homecontroller2\\showequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\homecontroller2\\showequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\homecontroller2\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\homecontroller2\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\homecontroller2\\detailed_service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\homecontroller2\\detailed_service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\homecontroller2\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\homecontroller2\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\editpractical.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\editpractical.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\addpractical.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\addpractical.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\editequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\editequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.312\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\editstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\editstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\addstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\addstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\addsubject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\addsubject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\editseminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\editseminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\editsubject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\editsubject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\fetchsubject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\fetchsubject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asp\\Downloads\\test_work\\Views\\Admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asp\\Desktop\\.net_work\\my_adim_panal\\Controllers\\adminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asp\\Downloads\\test_work\\Views\\Admin\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|c:\\users\\asp\\downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\views\\home\\editpro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A88F00AF-2469-4C57-8BAD-0B1D502AAD6A}|clinic_project.csproj|solutionrelative:views\\home\\editpro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\showmadi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Home\\showmadi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "showmadi.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\showmadi.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\showmadi.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\showmadi.cshtml",
+              "RelativeToolTip": "Views\\Home\\showmadi.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T05:21:57.432Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAANoBAAAAAAAAAAAAANoBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T05:25:23.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lecture.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Lecture.cs",
+              "RelativeDocumentMoniker": "Models\\Lecture.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Lecture.cs",
+              "RelativeToolTip": "Models\\Lecture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T04:58:12.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LectureList.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\LectureList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\LectureList.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\LectureList.cshtml",
+              "RelativeToolTip": "Views\\Home\\LectureList.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-05T05:41:31.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddSeminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddSeminar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AddSeminar.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddSeminar.cshtml",
+              "RelativeToolTip": "Views\\Home\\AddSeminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T05:23:15.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\login.cshtml",
+              "RelativeDocumentMoniker": "Views\\HomeController2\\login.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\login.cshtml",
+              "RelativeToolTip": "Views\\HomeController2\\login.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T04:47:28.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout1.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout1.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout1.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAANwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-22T04:54:25.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddEquipment.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddEquipment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AddEquipment.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddEquipment.cshtml",
+              "RelativeToolTip": "Views\\Home\\AddEquipment.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAFQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T05:36:45.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PracticalList.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\PracticalList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\PracticalList.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\PracticalList.cshtml",
+              "RelativeToolTip": "Views\\Home\\PracticalList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:44:01.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Rolelist.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Rolelist.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Rolelist.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Rolelist.cshtml",
+              "RelativeToolTip": "Views\\Home\\Rolelist.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T04:40:37.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T05:31:40.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClinicDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\ClinicDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ClinicDbContext.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\ClinicDbContext.cs",
+              "RelativeToolTip": "Models\\ClinicDbContext.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T04:59:33.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Seminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Seminar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Seminar.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Seminar.cshtml",
+              "RelativeToolTip": "Views\\Home\\Seminar.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T05:29:12.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AddRole.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddRole.cshtml",
+              "RelativeToolTip": "Views\\Home\\AddRole.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAwwGYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T04:37:42.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAF8CAAAAAAAAAAAiwGgCAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:47:53.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController2.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Controllers\\HomeController2.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController2.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Controllers\\HomeController2.cs",
+              "RelativeToolTip": "Controllers\\HomeController2.cs",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAiwDgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T04:38:42.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Staff.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Staff.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Staff.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Staff.cshtml",
+              "RelativeToolTip": "Views\\Home\\Staff.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T05:38:52.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EquipmentList.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\EquipmentList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\EquipmentList.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\EquipmentList.cshtml",
+              "RelativeToolTip": "Views\\Home\\EquipmentList.cshtml",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAHkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T04:36:57.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddLecture.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddLecture.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AddLecture.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddLecture.cshtml",
+              "RelativeToolTip": "Views\\Home\\AddLecture.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAIYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T04:32:50.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Orders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Orders.cshtml",
+              "RelativeToolTip": "Views\\Home\\Orders.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-05T04:49:59.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\HomeController2\\MyOrders.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\MyOrders.cshtml",
+              "RelativeToolTip": "Views\\HomeController2\\MyOrders.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-05T04:43:11.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\HomeController2\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\HomeController2\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T07:54:14.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Addtocart.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\Addtocart.cshtml",
+              "RelativeDocumentMoniker": "Views\\HomeController2\\Addtocart.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\Addtocart.cshtml",
+              "RelativeToolTip": "Views\\HomeController2\\Addtocart.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-01T05:24:54.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\OrderSuccess.cshtml",
+              "RelativeDocumentMoniker": "Views\\HomeController2\\OrderSuccess.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\OrderSuccess.cshtml",
+              "RelativeToolTip": "Views\\HomeController2\\OrderSuccess.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T08:02:52.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Medicine.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\Medicine.cshtml",
+              "RelativeDocumentMoniker": "Views\\HomeController2\\Medicine.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\Medicine.cshtml",
+              "RelativeToolTip": "Views\\HomeController2\\Medicine.cshtml",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAIgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-22T05:13:30.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAANcBAAAAAAAAAAAAAJwBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T04:24:22.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "fetchmadi.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\fetchmadi.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\fetchmadi.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\fetchmadi.cshtml",
+              "RelativeToolTip": "Views\\Home\\fetchmadi.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T03:58:38.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "showuser.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\showuser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\showuser.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\showuser.cshtml",
+              "RelativeToolTip": "Views\\Home\\showuser.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T05:50:31.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:33:53.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\HomeController2\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\Index.cshtml",
+              "RelativeToolTip": "Views\\HomeController2\\Index.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-22T04:59:30.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "adduser.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\adduser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\adduser.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\adduser.cshtml",
+              "RelativeToolTip": "Views\\Home\\adduser.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T05:31:27.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "addmadi.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\addmadi.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\addmadi.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\addmadi.cshtml",
+              "RelativeToolTip": "Views\\Home\\addmadi.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwGkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T04:53:59.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ShowEquipment.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\ShowEquipment.cshtml",
+              "RelativeDocumentMoniker": "Views\\HomeController2\\ShowEquipment.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\ShowEquipment.cshtml",
+              "RelativeToolTip": "Views\\HomeController2\\ShowEquipment.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwEEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-01T04:54:32.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Services.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\Services.cshtml",
+              "RelativeDocumentMoniker": "Views\\HomeController2\\Services.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\Services.cshtml",
+              "RelativeToolTip": "Views\\HomeController2\\Services.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwDsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T09:09:38.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "detailed_service.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\detailed_service.cshtml",
+              "RelativeDocumentMoniker": "Views\\HomeController2\\detailed_service.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\detailed_service.cshtml",
+              "RelativeToolTip": "Views\\HomeController2\\detailed_service.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T09:14:23.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\HomeController2\\About.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\HomeController2\\About.cshtml",
+              "RelativeToolTip": "Views\\HomeController2\\About.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwE0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T09:01:32.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EditPractical.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\EditPractical.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\EditPractical.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\EditPractical.cshtml",
+              "RelativeToolTip": "Views\\Home\\EditPractical.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:56:23.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AddPractical.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddPractical.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AddPractical.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddPractical.cshtml",
+              "RelativeToolTip": "Views\\Home\\AddPractical.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:44:59.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "editrole.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\editrole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\editrole.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\editrole.cshtml",
+              "RelativeToolTip": "Views\\Home\\editrole.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T04:43:44.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EditEquipment.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\EditEquipment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\EditEquipment.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\EditEquipment.cshtml",
+              "RelativeToolTip": "Views\\Home\\EditEquipment.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAkwJ0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T04:51:34.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T04:57:56.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T04:56:44.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.312\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.312\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.312\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.312\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAcwBIBAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-06-02T05:23:02.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T04:57:31.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T05:04:55.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Medicine.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Medicine.cs",
+              "RelativeDocumentMoniker": "Models\\Medicine.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Medicine.cs",
+              "RelativeToolTip": "Models\\Medicine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T05:11:13.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T05:04:46.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AddStaff.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddStaff.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AddStaff.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\AddStaff.cshtml",
+              "RelativeToolTip": "Views\\Home\\AddStaff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T05:31:41.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "EditStaff.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\EditStaff.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\EditStaff.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\EditStaff.cshtml",
+              "RelativeToolTip": "Views\\Home\\EditStaff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T05:45:54.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Addsubject.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Addsubject.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Addsubject.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Addsubject.cshtml",
+              "RelativeToolTip": "Views\\Home\\Addsubject.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T05:02:22.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EditSeminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\EditSeminar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\EditSeminar.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\EditSeminar.cshtml",
+              "RelativeToolTip": "Views\\Home\\EditSeminar.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T05:35:53.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "fetchsubject.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\fetchsubject.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\fetchsubject.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\fetchsubject.cshtml",
+              "RelativeToolTip": "Views\\Home\\fetchsubject.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T05:08:54.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Equipment.cs",
+              "RelativeDocumentMoniker": "Models\\Equipment.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Equipment.cs",
+              "RelativeToolTip": "Models\\Equipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T04:58:08.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "editsubject.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\editsubject.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\editsubject.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\editsubject.cshtml",
+              "RelativeToolTip": "Views\\Home\\editsubject.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T05:20:39.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "Models\\Subject.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Subject.cs",
+              "RelativeToolTip": "Models\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T04:59:44.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Feedback.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Feedback.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Feedback.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\Feedback.cshtml",
+              "RelativeToolTip": "Views\\Home\\Feedback.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T04:18:31.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "Models\\Feedback.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Feedback.cs",
+              "RelativeToolTip": "Models\\Feedback.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T04:58:11.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:35:41.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "adduser.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\test_work\\Views\\Admin\\adduser.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\test_work\\Views\\Admin\\adduser.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\test_work\\Views\\Admin\\adduser.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\test_work\\Views\\Admin\\adduser.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADgAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T05:45:10.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "userlist.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\test_work\\Views\\Admin\\userlist.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\test_work\\Views\\Admin\\userlist.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\test_work\\Views\\Admin\\userlist.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\test_work\\Views\\Admin\\userlist.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAmwFUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T05:49:36.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "adminController.cs",
+              "DocumentMoniker": "C:\\Users\\asp\\Desktop\\.net_work\\my_adim_panal\\Controllers\\adminController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\.net_work\\my_adim_panal\\Controllers\\adminController.cs",
+              "ToolTip": "C:\\Users\\asp\\Desktop\\.net_work\\my_adim_panal\\Controllers\\adminController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\.net_work\\my_adim_panal\\Controllers\\adminController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:58:42.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "editpro.cshtml",
+              "DocumentMoniker": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\editpro.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\editpro.cshtml",
+              "ToolTip": "C:\\Users\\asp\\Downloads\\clinic_project\\clinic_project\\clinic_project\\clinic_project\\Views\\Home\\editpro.cshtml",
+              "RelativeToolTip": "Views\\Home\\editpro.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwE4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T04:37:04.804Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

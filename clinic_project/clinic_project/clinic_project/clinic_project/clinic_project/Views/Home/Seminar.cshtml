@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewData["Title"] = "Seminar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Seminar</h1>
+
+
+
+<h1 class="text-center">Seminar</h1>
+
+@* <div class="text-center mb-3"> *@
+@*     <a asp-action="Create" class="btn btn-primary"> *@
+@*         Add Seminar *@
+@*     </a> *@
+@* </div> *@
+
+<div class="d-flex justify-content-center">
+    <table class="table table-bordered" style="width: auto;">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Time</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.SeminarId</td>
+                    <td>@item.SeminarTitle</td>
+                    <td>@item.SeminarDate</td>
+                    <td>@item.SeminarDescription</td>
+                    <td>@item.SeminarTime</td>
+                    <td>
+                        <a asp-action="EditSeminar"
+                           asp-route-id="@item.SeminarId"
+                           class="btn btn-warning">
+                            Edit
+                        </a>
+                        <a asp-action="DeleteSeminar"
+                           asp-route-id="@item.SeminarId"
+                           class="btn btn-danger">
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

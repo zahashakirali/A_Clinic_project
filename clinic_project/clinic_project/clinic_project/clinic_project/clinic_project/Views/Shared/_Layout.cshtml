@@ -1,0 +1,475 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ClinicDB Admin</title>
+    <link rel="icon" type="image/png" href="/favicons-admin/favicon-96x96.png" sizes="96x96" />
+    <link rel="stylesheet" href="~/assets/css/styles.min.css" />
+    <style>
+        /* ✅ Top bar */
+        .top-bar {
+            background: #fff;
+            border-bottom: 1px solid #eee;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 65px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        /* ✅ Sidebar starts BELOW top bar */
+        .left-sidebar {
+            width: 70px;
+            overflow: hidden;
+            transition: width 0.3s ease;
+            position: fixed;
+            top: 65px;
+            left: 0;
+            height: calc(100vh - 65px);
+            z-index: 999;
+            background: #fff;
+            box-shadow: 2px 0 8px rgba(0,0,0,0.08);
+            overflow-y: auto;
+        }
+
+            .left-sidebar.open {
+                width: 270px;
+            }
+
+            /* ✅ Center icons when collapsed */
+            .left-sidebar:not(.open) .sidebar-link {
+                display: flex !important;
+                justify-content: center !important;
+                padding: 14px 0 !important;
+            }
+
+                .left-sidebar:not(.open) .sidebar-link i {
+                    font-size: 22px;
+                    margin: 0 !important;
+                }
+
+            /* ✅ Hide text when collapsed */
+            .left-sidebar:not(.open) .hide-menu,
+            .left-sidebar:not(.open) .nav-small-cap,
+            .left-sidebar:not(.open) .sidebar-divider,
+            .left-sidebar:not(.open) .has-arrow::after,
+            .left-sidebar:not(.open) .brand-logo {
+                display: none !important;
+            }
+
+            /* ✅ Show brand logo only when open */
+            .left-sidebar.open .brand-logo {
+                display: flex !important;
+                align-items: center;
+                gap: 10px;
+                padding: 16px 16px;
+                border-bottom: 1px solid #f0f0f0;
+            }
+
+        .clinic-brand-text {
+            font-weight: 700;
+            font-size: 18px;
+            color: #5d87ff;
+            white-space: nowrap;
+        }
+
+        /* ✅ Body content pushed right */
+        .body-wrapper {
+            margin-left: 70px;
+            margin-top: 65px;
+            transition: margin-left 0.3s ease;
+            min-height: calc(100vh - 65px);
+        }
+
+            .body-wrapper.shifted {
+                margin-left: 270px;
+            }
+
+        /* ✅ Dim overlay when sidebar open */
+        .sidebar-overlay {
+            display: none;
+            position: fixed;
+            top: 65px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.3);
+            z-index: 998;
+        }
+
+            .sidebar-overlay.show {
+                display: block;
+            }
+
+        #sidebarToggle {
+            background: transparent;
+            border: none;
+            font-size: 26px;
+            cursor: pointer;
+            color: #5d87ff;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <div class="top-bar">
+        <div class="d-flex align-items-center gap-3">
+            <button id="sidebarToggle">&#9776;</button>
+            <img src="/favicons-admin/favicon-96x96.png" alt="logo" width="38" height="38" style="border-radius:50%;" />
+            <span style="font-weight:800; font-size:22px; color:#5d87ff;">ClinicDB</span>
+        </div>
+        <span style="color:#aaa; font-size:13px;">Admin Panel</span>
+    </div>
+
+    <div class="page-wrapper" id="main-wrapper">
+
+        <aside class="left-sidebar" id="mainSidebar">
+
+            <div class="brand-logo">
+                <img src="/favicons-admin/favicon-96x96.png" alt="logo" width="32" height="32" style="border-radius:50%;" />
+                <span class="clinic-brand-text">ClinicDB</span>
+            </div>
+
+            <nav class="sidebar-nav" data-simplebar="">
+                <ul id="sidebarnav">
+
+                    <li class="nav-small-cap">
+                        <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
+                        <span class="hide-menu">Equipment</span>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link justify-content-between has-arrow" href="#" data-bs-toggle="collapse" data-bs-target="#eqCollapse" aria-expanded="false">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="ti ti-building-hospital"></i>
+                                <span class="hide-menu">Equipment</span>
+                            </div>
+                        </a>
+                        <ul id="eqCollapse" class="collapse first-level" data-bs-parent="#sidebarnav">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Equipment" asp-action="EquipmentList">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-list"></i>
+                                        <span class="hide-menu">Equipment List</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Equipment" asp-action="AddEquipment">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-plus"></i>
+                                        <span class="hide-menu">Add Equipment</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-small-cap">
+                        <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
+                        <span class="hide-menu">Medicine</span>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link justify-content-between has-arrow" href="#" data-bs-toggle="collapse" data-bs-target="#medCollapse" aria-expanded="false">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="ti ti-pill"></i>
+                                <span class="hide-menu">Medicine</span>
+                            </div>
+                        </a>
+                        <ul id="medCollapse" class="collapse first-level" data-bs-parent="#sidebarnav">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Medicine" asp-action="MedicineList">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-list"></i>
+                                        <span class="hide-menu">Medicine List</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Medicine" asp-action="AddMedicine">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-plus"></i>
+                                        <span class="hide-menu">Add Medicine</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-small-cap">
+                        <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
+                        <span class="hide-menu">Users</span>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link justify-content-between has-arrow" href="#" data-bs-toggle="collapse" data-bs-target="#usersCollapse" aria-expanded="false">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="ti ti-users"></i>
+                                <span class="hide-menu">Users</span>
+                            </div>
+                        </a>
+                        <ul id="usersCollapse" class="collapse first-level" data-bs-parent="#sidebarnav">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="UserList">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-list"></i>
+                                        <span class="hide-menu">User List</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="AddUser">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-plus"></i>
+                                        <span class="hide-menu">Add User</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-small-cap">
+                        <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
+                        <span class="hide-menu">Roles</span>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link justify-content-between has-arrow" href="#" data-bs-toggle="collapse" data-bs-target="#rolesCollapse" aria-expanded="false">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="ti ti-shield"></i>
+                                <span class="hide-menu">Roles</span>
+                            </div>
+                        </a>
+                        <ul id="rolesCollapse" class="collapse first-level" data-bs-parent="#sidebarnav">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="RoleList">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-list"></i>
+                                        <span class="hide-menu">Role List</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="AddRole">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-plus"></i>
+                                        <span class="hide-menu">Add Role</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-small-cap">
+                        <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
+                        <span class="hide-menu">Orders</span>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" asp-controller="Home" asp-action="orders">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="ti ti-shopping-cart"></i>
+                                <span class="hide-menu">Orders</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="nav-small-cap">
+                        <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
+                        <span class="hide-menu">Lectures</span>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link justify-content-between has-arrow" href="#" data-bs-toggle="collapse" data-bs-target="#lecCollapse" aria-expanded="false">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="ti ti-book"></i>
+                                <span class="hide-menu">Lectures</span>
+                            </div>
+                        </a>
+                        <ul id="lecCollapse" class="collapse first-level" data-bs-parent="#sidebarnav">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="LectureList">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-list"></i>
+                                        <span class="hide-menu">Lecture List</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="AddLecture">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-plus"></i>
+                                        <span class="hide-menu">Add Lecture</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-small-cap">
+                        <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
+                        <span class="hide-menu">Seminar</span>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link justify-content-between has-arrow" href="#" data-bs-toggle="collapse" data-bs-target="#semCollapse" aria-expanded="false">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="ti ti-building-hospital"></i>
+                                <span class="hide-menu">Seminar</span>
+                            </div>
+                        </a>
+                        <ul id="semCollapse" class="collapse first-level" data-bs-parent="#sidebarnav">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="Seminar">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-list"></i>
+                                        <span class="hide-menu">Seminar List</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="AddSeminar">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-plus"></i>
+                                        <span class="hide-menu">Add Seminar</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-small-cap">
+                        <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
+                        <span class="hide-menu">Staff</span>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link justify-content-between has-arrow" href="#" data-bs-toggle="collapse" data-bs-target="#staffCollapse" aria-expanded="false">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="ti ti-building-hospital"></i>
+                                <span class="hide-menu">Staff</span>
+                            </div>
+                        </a>
+                        <ul id="staffCollapse" class="collapse first-level" data-bs-parent="#sidebarnav">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="Staff">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-list"></i>
+                                        <span class="hide-menu">Staff List</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="AddStaff">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-plus"></i>
+                                        <span class="hide-menu">Add Staff</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-small-cap">
+                        <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
+                        <span class="hide-menu">Subject</span>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link justify-content-between has-arrow" href="#" data-bs-toggle="collapse" data-bs-target="#subCollapse" aria-expanded="false">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="ti ti-building-hospital"></i>
+                                <span class="hide-menu">Subject</span>
+                            </div>
+                        </a>
+                        <ul id="subCollapse" class="collapse first-level" data-bs-parent="#sidebarnav">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="SubjectList">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-list"></i>
+                                        <span class="hide-menu">Subject List</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="AddSubject">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-plus"></i>
+                                        <span class="hide-menu">Add Subject</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-small-cap">
+                        <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
+                        <span class="hide-menu">Practical</span>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link justify-content-between has-arrow" href="#" data-bs-toggle="collapse" data-bs-target="#pracCollapse" aria-expanded="false">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="ti ti-building-hospital"></i>
+                                <span class="hide-menu">Practical</span>
+                            </div>
+                        </a>
+                        <ul id="pracCollapse" class="collapse first-level" data-bs-parent="#sidebarnav">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="PracticalList">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-list"></i>
+                                        <span class="hide-menu">Practical List</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" asp-controller="Home" asp-action="AddPractical">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="ti ti-plus"></i>
+                                        <span class="hide-menu">Add Practical</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </aside>
+
+        <div class="body-wrapper" id="bodyWrapper">
+            <div class="container-fluid p-4">
+                @RenderBody()
+            </div>
+        </div>
+
+    </div>
+
+    <script src="~/admin/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/admin/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/admin/assets/js/sidebarmenu.js"></script>
+    <script src="~/admin/assets/js/app.min.js"></script>
+    <script src="~/admin/assets/libs/simplebar/dist/simplebar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+
+    <script>
+        const sidebar = document.getElementById('mainSidebar');
+        const bodyWrapper = document.getElementById('bodyWrapper');
+        const toggleBtn = document.getElementById('sidebarToggle');
+        const overlay = document.getElementById('sidebarOverlay');
+
+        toggleBtn.addEventListener('click', function () {
+            sidebar.classList.toggle('open');
+            bodyWrapper.classList.toggle('shifted');
+            overlay.classList.toggle('show');
+        });
+
+        overlay.addEventListener('click', function () {
+            sidebar.classList.remove('open');
+            bodyWrapper.classList.remove('shifted');
+            overlay.classList.remove('show');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+﻿@model clinic_project.Models.Medicine
+@{
+    ViewData["Title"] = "Add Medicine";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container py-5">
+
+    <div class="row justify-content-center align-items-center">
+
+        <div class="col-lg-6 col-md-8 col-sm-12">
+
+            <div class="card shadow-lg border-0 rounded-4">
+
+                <!-- Header -->
+                <div class="card-header bg-info text-white text-center py-4 rounded-top-4">
+                    <h2 class="fw-bold mb-1">Add Medicine</h2>
+                    <p class="mb-0">Enter medicine details carefully</p>
+                </div>
+
+                <!-- Body -->
+                <div class="card-body p-4">
+
+                    <form asp-action="addmadi" method="post" enctype="multipart/form-data">
+
+                        <!-- Medicine Name -->
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Medicine Name</label>
+                            <input asp-for="Name" class="form-control form-control-lg" placeholder="Enter medicine name">
+                        </div>
+
+                        <!-- Medicine Type -->
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Medicine Type</label>
+                            <input asp-for="Type" class="form-control form-control-lg" placeholder="Tablet / Syrup etc">
+                        </div>
+
+                        <!-- Medicine Code -->
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Medicine Code</label>
+                            <input asp-for="Code" class="form-control form-control-lg" placeholder="Enter code">
+                        </div>
+
+                        <!-- Price -->
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Price</label>
+                            <input asp-for="Price" class="form-control form-control-lg" placeholder="Enter price">
+                        </div>
+
+                        <!-- Stock -->
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Stock</label>
+                            <input asp-for="Stock" class="form-control form-control-lg" placeholder="Available stock">
+                        </div>
+
+                        <!-- Image -->
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Upload Image</label>
+                            <input type="file" name="imgfile" class="form-control form-control-lg">
+                        </div>
+
+                        <!-- Button -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-info btn-lg text-white rounded-3">
+                                Save Medicine
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<style>
+    body {
+        background-color: #f4f9ff;
+    }
+
+    .form-control:focus {
+        border-color: #0dcaf0;
+        box-shadow: 0 0 8px rgba(13, 202, 240, 0.4);
+    }
+
+    .card {
+        animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>

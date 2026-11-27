@@ -1,0 +1,158 @@
+﻿@model clinic_project.Models.Equipment
+@{
+    ViewData["Title"] = "EditEquipment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    /* Form Card */
+    .col-md-5.mx-auto {
+        background: #ffffff;
+        border: none !important;
+        border-radius: 10px !important;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+        padding: 30px !important;
+    }
+
+    /* Heading */
+    h2 {
+        color: #0056b3 !important;
+        font-weight: 700 !important;
+        margin-bottom: 20px !important;
+    }
+
+    hr {
+        display: none;
+    }
+
+    /* Labels */
+    .control-label {
+        color: #334155 !important;
+        font-weight: 600 !important;
+        margin-bottom: 8px;
+    }
+
+    /* Inputs */
+    .form-control {
+        border: 1px solid #dbe3ec !important;
+        border-radius: 8px !important;
+        padding: 10px 14px !important;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #0056b3 !important;
+            box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.15) !important;
+        }
+
+    textarea.form-control {
+        resize: none;
+    }
+
+    /* Current Image */
+    img {
+        border: 2px solid #e2e8f0 !important;
+        border-radius: 8px !important;
+    }
+
+    /* Save Button */
+    .btn-primary {
+        background-color: #0056b3 !important;
+        border: none !important;
+        border-radius: 6px !important;
+        padding: 10px 18px !important;
+        font-weight: 600 !important;
+        transition: all 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #004085 !important;
+            box-shadow: 0 4px 12px rgba(0, 86, 179, 0.25) !important;
+        }
+
+    /* Add New Equipment Button */
+    .btn-success {
+        background-color: #0056b3 !important;
+        border: none !important;
+        border-radius: 6px !important;
+        font-weight: 500 !important;
+        transition: all 0.3s ease;
+    }
+
+        .btn-success:hover {
+            background-color: #004085 !important;
+            box-shadow: 0 4px 12px rgba(0, 86, 179, 0.25) !important;
+        }
+
+    /* Back Link */
+    .btn-link {
+        color: #0056b3 !important;
+        text-decoration: none !important;
+        font-weight: 600;
+    }
+
+        .btn-link:hover {
+            color: #004085 !important;
+            text-decoration: underline !important;
+        }
+
+    /* Validation */
+    .text-danger {
+        font-size: 13px;
+    }
+
+    /* Bottom Buttons */
+    .mt-3.d-flex {
+        align-items: center;
+    }
+</style>
+<h2 class="text-center">Edit Equipment</h2>
+<hr />
+<div class="row">
+    <div class="col-md-5 mx-auto shadow-sm p-4 border rounded">
+        <form asp-action="EditEquipment" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="control-label font-weight-bold"></label>
+                <input asp-for="Name" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Description" class="control-label font-weight-bold"></label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Price" class="control-label font-weight-bold"></label>
+                <input asp-for="Price" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Stock" class="control-label font-weight-bold"></label>
+                <input asp-for="Stock" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label font-weight-bold">Image</label>
+                @if (!string.IsNullOrEmpty(Model.Image))
+                {
+                    <div class="mb-2">
+                        <img src="@Model.Image" width="80" height="80"
+                             style="object-fit:cover; border-radius:6px; border:1px solid #ddd;" />
+                        <small class="text-muted d-block">Current image. Upload new to replace.</small>
+                    </div>
+                }
+                <input type="file" name="ImageFile" class="form-control" accept="image/*" />
+            </div>
+
+            <div class="form-group text-center">
+                <input type="submit" value="Save Changes" class="btn btn-primary w-100" />
+            </div>
+        </form>
+
+        <div class="mt-3 d-flex justify-content-between">
+            <a asp-action="EquipmentList" class="btn btn-link">Back to List</a>
+            <a asp-action="AddEquipment" class="btn btn-success">+ Add New Equipment</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,145 @@
+﻿@model clinic_project.Models.Practical
+@{
+    ViewData["Title"] = "AddPractical";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Hide default heading */
+    h1 {
+        display: none;
+    }
+
+    /* Title */
+    h2 {
+        color: #0056b3 !important;
+        font-weight: 700 !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* Card Styling */
+    .card {
+        border: none !important;
+        border-radius: 10px !important;
+        background: #ffffff !important;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+        padding: 25px !important;
+    }
+
+    /* Labels */
+    label {
+        color: #334155 !important;
+        font-weight: 600 !important;
+        margin-bottom: 6px;
+        display: block;
+    }
+
+    /* Inputs */
+    .form-control {
+        border: 1px solid #dbe3ec !important;
+        border-radius: 8px !important;
+        padding: 10px 14px !important;
+        height: 45px;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #0056b3 !important;
+            box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.15) !important;
+        }
+
+    textarea.form-control {
+        height: auto !important;
+        resize: vertical;
+    }
+
+    /* Button */
+    .btn-primary {
+        background-color: #0056b3 !important;
+        border: none !important;
+        border-radius: 6px !important;
+        padding: 10px 18px !important;
+        font-weight: 600 !important;
+        transition: all 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #004085 !important;
+            box-shadow: 0 4px 12px rgba(0, 86, 179, 0.25) !important;
+        }
+
+    /* ⭐ spacing fix (top space kam karne ke liye) */
+    .d-flex.justify-content-end {
+        padding-top: 5px !important;
+    }
+
+    .card {
+        margin-top: 5px !important;
+    }
+</style>
+<h1>AddPractical</h1>
+
+
+
+
+
+<div class="d-flex justify-content-center">
+    <div class="card shadow p-4 mt-4" style="width: 500px;">
+
+        <h2 class="text-center mb-4">Add Practical</h2>
+
+        <form asp-action="AddPractical" method="post">
+
+            <div class="mb-3">
+                <label>Subject</label>
+                <select asp-for="SubjectId"
+                        asp-items="ViewBag.SubjectId"
+                        class="form-control">
+                    <option value="">Select Subject</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label>Staff</label>
+                <select asp-for="StaffId"
+                        asp-items="ViewBag.StaffId"
+                        class="form-control">
+                    <option value="">Select Staff</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label>Practical Title</label>
+                <input asp-for="PracticalTitle" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label>Description</label>
+                <textarea asp-for="PracticalDescription" class="form-control"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label>Date</label>
+                <input asp-for="PracticalDate" type="date"
+                       min="@DateTime.Now.ToString("yyyy-MM-dd")"
+                       class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label>Time</label>
+                <input asp-for="PracticalTime" type="time" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label>Room No</label>
+                <input asp-for="RoomNo" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">
+                Save
+            </button>
+
+        </form>
+    </div>
+</div>
+

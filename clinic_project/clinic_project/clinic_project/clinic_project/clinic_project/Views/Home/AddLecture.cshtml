@@ -1,0 +1,135 @@
+﻿@model clinic_project.Models.Lecture
+@{
+    ViewData["Title"] = "AddLecture";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    /* Card Styling */
+    .card {
+        border: none !important;
+        border-radius: 10px !important;
+        background: #ffffff !important;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+    }
+
+    /* Heading */
+    h2 {
+        color: #0056b3 !important;
+        font-weight: 700 !important;
+        margin-bottom: 25px !important;
+    }
+
+    /* Labels */
+    label {
+        color: #334155 !important;
+        font-weight: 600 !important;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    /* Inputs, Selects & Textarea */
+    .form-control {
+        border: 1px solid #dbe3ec !important;
+        border-radius: 8px !important;
+        padding: 10px 14px !important;
+        transition: all 0.3s ease;
+        min-height: 45px;
+    }
+
+        .form-control:focus {
+            border-color: #0056b3 !important;
+            box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.15) !important;
+        }
+
+    textarea.form-control {
+        min-height: 100px;
+        resize: vertical;
+    }
+
+    /* Save Button */
+    .btn-primary {
+        background-color: #0056b3 !important;
+        border: none !important;
+        border-radius: 6px !important;
+        padding: 10px 18px !important;
+        font-weight: 600 !important;
+        transition: all 0.3s ease !important;
+    }
+
+        .btn-primary:hover {
+            background-color: #004085 !important;
+            box-shadow: 0 4px 12px rgba(0, 86, 179, 0.25) !important;
+        }
+
+    /* Form Spacing */
+    .mb-3 {
+        margin-bottom: 18px !important;
+    }
+</style>
+
+<div class="d-flex justify-content-center">
+
+    <div class="card shadow p-4 mt-4" style="width: 500px;">
+
+        <h2 class="text-center mb-4">Add Lecture</h2>
+
+        <form asp-action="AddLecture" method="post">
+
+            <div class="mb-3">
+                <label>Subject</label>
+                <select asp-for="SubjectId"
+                        asp-items="ViewBag.SubjectId"
+                        class="form-control">
+                    <option value="">Select Subject</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label>Staff</label>
+                <select asp-for="StaffId"
+                        asp-items="ViewBag.StaffId"
+                        class="form-control">
+                    <option value="">Select Staff</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label>Lecture Title</label>
+                <input asp-for="LectureTitle" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label>Description</label>
+                <textarea asp-for="LectureDescription"
+                          class="form-control"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label>Date</label>
+                <input asp-for="LectureDate"
+                       type="date"
+                       min="@DateTime.Now.ToString("yyyy-MM-dd")"
+                       class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label>Time</label>
+                <input asp-for="LectureTime"
+                       type="time"
+                       class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label>Room No</label>
+                <input asp-for="RoomNo" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">
+                Save
+            </button>
+
+        </form>
+
+    </div>
+
+</div>

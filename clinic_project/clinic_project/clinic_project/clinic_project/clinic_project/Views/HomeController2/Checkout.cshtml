@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+@model clinic_project.Models.Cart
+
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    decimal? grandTotal = 0;
+}
+
+<div class="container my-5">
+    <h2 class="mb-4"><i class="fas fa-credit-card me-2"></i>Checkout</h2>
+
+    <div class="row g-4">
+        <div class="col-lg-7">
+            <div class="card shadow-sm border-0 rounded-3 p-4">
+                <h4 class="fw-bold mb-4">Shipping & Payment Information</h4>
+
+                <form asp-action="PlaceOrder" method="post">
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Shipping Address</label>
+                        <textarea name="ShippingAddress" class="form-control" rows="3" placeholder="Enter your full home address or clinic delivery point" required></textarea>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold">Payment Method</label>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="PaymentMethod" id="cod" value="Cash on Delivery" checked>
+                            <label class="form-check-label" for="cod">
+                                <i class="fas fa-money-bill-wave text-success me-2"></i> Cash on Delivery (COD)
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="PaymentMethod" id="card" value="Card Payment">
+                            <label class="form-check-label" for="card">
+                                <i class="fas fa-credit-card text-primary me-2"></i> Credit / Debit Card
+                            </label>
+                        </div>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <button type="submit" class="btn btn-success btn-lg w-100 rounded-3 fw-bold shadow">
+                        PLACE ORDER NOW <i class="fas fa-check-circle ms-2"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="card shadow-sm border-0 rounded-3 p-4 bg-light">
+                <h4 class="fw-bold mb-3">Order Summary</h4>
+                <div class="table-responsive">
+                    <table class="table table-sm align-middle text-nowrap">
+                        <tbody>
+                            @foreach (var item in Model.CartItems)
+                            {
+                                decimal? itemTotal = (item.Price ?? 0) * (item.Quantity ?? 1);
+                                grandTotal += itemTotal;
+
+                                <tr>
+                                    <td>
+                                        <span class="fw-semibold">Item #@item.ProductId</span>
+                                        <br /><small class="text-muted">@item.ProductType (x@item.Quantity)</small>
+                                    </td>
+                                    <td class="text-end fw-bold text-dark">Rs. @itemTotal?.ToString("N2")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <hr class="my-3">
+
+                <div class="d-flex justify-content-between mb-2">
+                    <span class="text-muted">Subtotal:</span>
+                    <span class="fw-semibold">Rs. @grandTotal?.ToString("N2")</span>
+                </div>
+                <div class="d-flex justify-content-between mb-3 text-success">
+                    <span>Delivery:</span>
+                    <span class="fw-semibold">FREE</span>
+                </div>
+                <div class="d-flex justify-content-between h5 fw-bold text-dark border-top pt-3">
+                    <span>Total Amount:</span>
+                    <span class="text-primary">Rs. @grandTotal?.ToString("N2")</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

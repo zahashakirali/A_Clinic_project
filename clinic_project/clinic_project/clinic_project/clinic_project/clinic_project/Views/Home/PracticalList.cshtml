@@ -1,0 +1,164 @@
+﻿
+@{
+    ViewData["Title"] = "PracticalList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Title */
+    h2 {
+        color: #0056b3 !important;
+        font-weight: 700 !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* Table container */
+    .table-container {
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        padding: 20px;
+    }
+
+    /* Table header */
+    .table thead th {
+        background-color: #f8fafc !important;
+        color: #0056b3 !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        border-bottom: 2px solid #e2e8f0 !important;
+        padding: 14px !important;
+    }
+
+    /* Table body */
+    .table tbody td {
+        padding: 14px !important;
+        vertical-align: middle !important;
+        color: #334155 !important;
+    }
+
+    /* Hover effect */
+    .table tbody tr:hover {
+        background-color: #f1f5f9 !important;
+        transition: 0.2s ease;
+    }
+
+    /* Add button */
+    .btn-primary {
+        background-color: #0056b3 !important;
+        border: none !important;
+        border-radius: 6px !important;
+        padding: 8px 18px !important;
+        font-weight: 500 !important;
+    }
+
+        .btn-primary:hover {
+            background-color: #004085 !important;
+            box-shadow: 0 4px 12px rgba(0,86,179,0.25);
+        }
+
+    /* Edit button */
+    .btn-success {
+        background-color: #0056b3 !important;
+        border: none !important;
+        border-radius: 6px !important;
+    }
+
+        .btn-success:hover {
+            background-color: #004085 !important;
+        }
+
+    /* Delete button */
+    .btn-danger {
+        background: transparent !important;
+        color: #dc3545 !important;
+        border: 1px solid #dc3545 !important;
+        border-radius: 6px !important;
+    }
+
+        .btn-danger:hover {
+            background: #dc3545 !important;
+            color: #fff !important;
+        }
+</style>
+<div class="d-flex justify-content-center pe-4">
+
+    <div style="width: 78%;">
+
+        <h2 class="mb-3 text-center">Practical List</h2>
+
+        <p class="text-end">
+            <a asp-action="AddPractical"
+               class="btn btn-primary">
+                Add New Practical
+            </a>
+        </p>
+
+        <table class="table table-bordered table-striped">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Subject</th>
+                    <th>Staff</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Room No</th>
+                    <th width="180">Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>@item.PracticalId</td>
+
+                        <td>@item.Subject?.SubjectName</td>
+
+                        <td>@item.Staff?.StaffId</td>
+
+                        <td>@item.PracticalTitle</td>
+
+                        <td>@item.PracticalDescription</td>
+
+                        <td>@item.PracticalDate</td>
+
+                        <td>@item.PracticalTime</td>
+
+                        <td>@item.RoomNo</td>
+
+                        <td>
+
+                            <a asp-action="EditPractical"
+                               asp-route-id="@item.PracticalId"
+                               class="btn btn-success btn-sm">
+                                Edit
+                            </a>
+
+                            <a asp-action="DeletePractical"
+                               asp-route-id="@item.PracticalId"
+                               class="btn btn-danger btn-sm"
+                               onclick="return confirm('Are you sure?')">
+                                Delete
+                            </a>
+
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+

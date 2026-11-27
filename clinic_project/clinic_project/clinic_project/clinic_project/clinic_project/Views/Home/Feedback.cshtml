@@ -1,0 +1,92 @@
+﻿@model IEnumerable<clinic_project.Models.Feedback>
+@using System.Linq
+@{
+    ViewData["Title"] = "Feedback";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Feedback</h1>
+
+
+
+
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 0px; /* left se thora right */
+    }
+
+    table {
+        width: 30%;
+        
+    }
+
+        table th,
+        table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+    h2 {
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+</style>
+
+<div class="container " >
+
+    <h2 class="text-center">Patient Feedbacks</h2>
+
+    <table class="table table-bordered table-hover">
+
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>User Name</th>
+                <th>Message</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @if (Model != null && Model.Count() > 0)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>@item.FeedbackId</td>
+
+                        <td>
+                            @(item.User != null ? item.User.Name : "Anonymous")
+                        </td>
+
+                        <td>@item.Message</td>
+
+                        <td>
+                            @(item.CreatedAt?.ToString("dd MMM yyyy"))
+                        </td>
+
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4" class="text-center text-danger">
+                        No Feedback Found
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+</div>
